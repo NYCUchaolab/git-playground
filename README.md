@@ -5,3 +5,4 @@
 2. 在自己專案上進行修改，並push到自己的分叉上
 3. 建立pull request並敘述修改內容
 4. 等待管理者合併
+請參考大佬教學 https://gitbook.tw/chapters/github/pull-request
