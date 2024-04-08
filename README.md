@@ -7,13 +7,13 @@ $ git config --global user.email johndoe@example.com
 ```
 ## 沒有抓取過的專案用clone
 ```bash
-git clone ${project_name}.git
+$ git clone ${project_name}.git
 ```
 ## 抓過的專案要更新用fetch或pull
 ```bash
-git fetch
+$ git fetch
 # git pull = git fatch + git merge
-git pull
+$ git pull
 ```
 ## 利用Pull requests協作步驟
 請參考[與其它開發者的互動 - 使用 Pull Request（PR）](https://gitbook.tw/chapters/github/pull-request)
