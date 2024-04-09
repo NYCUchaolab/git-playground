@@ -5,11 +5,20 @@
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
-## 沒有抓取過的專案用clone
+## 沒有抓取過的專案 - clone
 ```bash
 $ git clone ${project_name}.git
 ```
-## 抓過的專案要更新用fetch或pull
+## 新增檔案 - add
+```bash
+$ git add {file_name}
+```
+## 提交變更 - commit
+```bash
+$ git commit -m "提交內容"
+```
+
+## 抓過的專案要更新 - fetch, pull
 ```bash
 $ git fetch
 # git pull = git fatch + git merge
